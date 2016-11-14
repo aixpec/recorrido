@@ -58,7 +58,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
   
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        
+            //
         if distancia == 0.0{
             if mapa.userLocation.location != nil{
                 puntoAnterior = mapa.userLocation.location!
